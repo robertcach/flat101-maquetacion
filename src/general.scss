@@ -1,14 +1,35 @@
-/* COLOR */
-$main-color: #688F4E;
-$secondary-color: #F07421;
-$third-color: #F9F7F1;
-
-
-$black-color: #272727;
+/* VARIABLES */
+$main-color: #212529;
+$secondary-color: #808080;
 $white-color: #ffffff;
-$grey-color: #E5E5E5;
 
 
 /* FONTS */
 /* $main-font: 'Playfair Display', serif;
 $secondary-font: 'Raleway', sans-serif; */
+
+
+/* GENERAL STYLES */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.8rem;
+/*   font-family: $secondary-font; */
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
