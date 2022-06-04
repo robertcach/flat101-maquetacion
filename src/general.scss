@@ -4,11 +4,6 @@ $secondary-color: #808080;
 $white-color: #ffffff;
 
 
-/* FONTS */
-/* $main-font: 'Playfair Display', serif;
-$secondary-font: 'Raleway', sans-serif; */
-
-
 /* GENERAL STYLES */
 * {
   padding: 0;
@@ -22,14 +17,7 @@ html {
 
 body {
   font-size: 1.8rem;
-/*   font-family: $secondary-font; */
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-.wrapper {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 2rem;
 }
