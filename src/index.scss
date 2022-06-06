@@ -110,6 +110,10 @@
     padding: 5rem 13rem;
   }
 
+  @media (min-width: 1280px) {
+    padding: 5rem 20rem;
+  }
+
 
   &__single {
     margin: 1rem 0;
